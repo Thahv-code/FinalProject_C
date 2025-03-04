@@ -443,10 +443,7 @@ void customerMenu()
         printf("\n        ***Customer Menu ***   \n");
         printf("[1]. Insert customer infomation \n");
         printf("[2]. Display all customer infomation \n");
-        printf("[3]. Add custommer \n");
-        printf("[4]. Change customer infomation \n");
-        printf("[5]. Search customer by name \n");
-        printf("[6]. Return to main menu \n");
+        printf("[3]. Return to main menu \n");
         printf("=================================================\n");
         printf("Choice your option: ");
         scanf("%d", &choice);
@@ -458,7 +455,7 @@ void customerMenu()
         case 2:
             displayUser(customer, t);
             break;
-        case 6:
+        case 3:
             mainDisplay();
         default:
             printf("Invalid choice, please try again");
